@@ -11,7 +11,6 @@
 }
 
 /* header styles */
-
 header{
     margin-top: 100px;
 }
@@ -30,10 +29,34 @@ header{
     font-family: "Merriweather", serif;
     font-size: 32px;
     font-weight: 100;
-    margin-bottom: 20px;
+    margin-bottom: 20px;;
 }
 
 .hero-title{
     font-family: "Merriweather", serif;
     font-size: 72px;
+}
+
+/* discount section styles */
+.discount{
+    font-family: "Inter", serif;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.discount-title{
+    font-size: 88px;
+    color: red;
+}
+
+.discount-first-subtitle{
+    font-size: 24px;
+    color: red;
+    margin: 48px 0 16px 0;
+}
+
+.discount-second-subtitle{
+    font-size: 48px;
+    margin-bottom: 48px;
 }
