@@ -95,7 +95,7 @@ header{
     font-size: 20px;
     color: white;
     background-color: transparent;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     border: 0;
 }
@@ -104,4 +104,45 @@ header{
     background-color: white;
     color: black;
     cursor: pointer;
+}
+
+/* event schedule section styles */
+.event-schedule{
+    font-family: "Inter", serif;
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient(#FFE6E6, white);
+    border-radius: 10px;
+    padding: 100px 0;
+    margin-bottom: 120px;
+}
+
+.event-schedule span{
+    color: red;
+}
+
+.event-schedule-text{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.event-schedule-btn{
+    margin-top: 48px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.event-schedule-btn:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* offers styles */
+.offers{
+    
 }
