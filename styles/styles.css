@@ -271,3 +271,62 @@ header{
 .gifts-boxes img:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* newsletter section */
+.newsletter{
+    background-color: #FFF2F2;
+    border-radius: 15px;
+    border: 0;
+    text-align: center;
+    align-content: center;
+    padding: 100px 0;
+    margin-bottom: 120px;
+}
+
+.newsletter-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.newsletter-paragraph{
+    font-family: "Inter", serif;
+    color: #6A6770;
+    font-size: 20px;
+    width: 896px;
+    margin: 0 auto 48px;
+}
+
+.newsletter input{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    color: #6A6770;
+    padding: 17px 30px;
+    border-radius: 100px 0 0 100px;
+    border: 0;
+}
+
+.newsletter-btn{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 0 100px 100px 0;
+    border: 0;
+    margin-left: 0;
+}
+
+.newsletter-btn:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* footer styles */
+footer{
+    font-family: "Inter", serif;
+    background-color: #070211;
+    color: white;
+}
