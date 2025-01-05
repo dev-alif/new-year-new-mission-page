@@ -144,5 +144,53 @@ header{
 
 /* offers styles */
 .offers{
-    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.offer-left{
+    width: 393px;
+}
+
+.offer-pretitle{
+    font-family: "Inter", serif;
+    color: red;
+    font-size: 24px;
+}
+
+.offer-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.offer-paragraph{
+    font-family: "Inter", serif;
+    color: #6A6770;
+    font-size: 20px;
+}
+
+.offer-middle img{
+    width: 365px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.offer-right{
+    width: 276px;
+}
+
+.offer-year{
+    font-family: "Inter", serif;
+    color: red;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.offer-right img{
+    margin-top: 43px;
+    width: 140px;
 }
