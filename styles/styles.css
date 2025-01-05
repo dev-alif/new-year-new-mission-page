@@ -146,6 +146,7 @@ header{
 .offers{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 120px;
 }
 
@@ -193,4 +194,31 @@ header{
 .offer-right img{
     margin-top: 43px;
     width: 140px;
+}
+
+/* sale top section */
+.sale-top{
+    text-align: center;
+    margin-bottom: 64px;
+    width: 1068px;
+}
+
+.sale-top span{
+    color: red;
+}
+
+.sale-pretitle{
+    font-family: "Inter", serif;
+    font-size: 24px;
+}
+
+.sale-title{
+    margin-top: 16px;
+    margin-bottom: 28px;
+    font-size: 72px;
+}
+
+/* sale bottom section */
+.sale-bottom{
+    background-image: url('');
 }
