@@ -213,6 +213,7 @@ header{
 }
 
 .sale-title{
+    font-family: "Merriweather", serif;
     margin-top: 16px;
     margin-bottom: 28px;
     font-size: 72px;
@@ -224,4 +225,49 @@ header{
     background-image: url('../images/Group\ 75.png'), url('../images/Rectangle\ 2.png'), url('../images/Group\ 44.png'), url('../images/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: 10% 20%, bottom, 70% 20%, top right;
+}
+
+/* gifts section */
+
+.gifts{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.gifts-subtitle{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    color: red;
+}
+
+.gifts-title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.gifts-paragraph{
+    font-family: "Inter", serif;
+    color: #6A6770;
+    font-size: 20px;
+    width: 896px;
+    margin-bottom: 48px;
+}
+
+.gifts-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gifts-boxes img{
+    width: 424px;
+    height: 450px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.gifts-boxes img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
