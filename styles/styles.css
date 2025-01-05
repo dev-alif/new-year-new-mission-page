@@ -60,3 +60,48 @@ header{
     font-size: 48px;
     margin-bottom: 48px;
 }
+
+/* midnight section styles */
+.midnight{
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0)), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+    border-radius: 10px;
+}
+
+.midnight-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    align-items: center;
+}
+
+.midnight-title{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    width: 640px;
+}
+
+.midnight-subtitle{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    width: 700px;
+    margin: 25px 0 48px 0;
+}
+
+.midnight-btn{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.midnight-btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
