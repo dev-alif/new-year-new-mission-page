@@ -220,5 +220,8 @@ header{
 
 /* sale bottom section */
 .sale-bottom{
-    background-image: url('');
+    height: 662px;
+    background-image: url('../images/Group\ 75.png'), url('../images/Rectangle\ 2.png'), url('../images/Group\ 44.png'), url('../images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: 10% 20%, bottom, 70% 20%, top right;
 }
