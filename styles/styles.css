@@ -329,4 +329,43 @@ footer{
     font-family: "Inter", serif;
     background-color: #070211;
     color: white;
+    padding: 130px 0;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top p{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.footer hr{
+    border-top: 1px solid #FFF2F2;
+    margin-top: 80px;
+}
+
+.footer-middle{
+    text-align: center;
+    margin: 80px auto;
+}
+
+.footer-middle img{
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.footer-bottom p{
+    font-size: 24px;
 }
